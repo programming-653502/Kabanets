@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Core">
+      <UniqueIdentifier>{c37602fd-d302-47c4-ac38-5e1111ff94c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Util">
+      <UniqueIdentifier>{b43d0843-af76-47fb-8e25-c0ab7fe60012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Views">
+      <UniqueIdentifier>{fc50c1d6-a823-43dc-99af-475ec8673f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Model">
+      <UniqueIdentifier>{453ec7a8-f3ad-4525-bd08-92e9e5419993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core">
+      <UniqueIdentifier>{befb1883-8a7f-4063-a1d2-b9b3cc3570f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Model">
+      <UniqueIdentifier>{d1117018-b332-4a05-9052-43dddf4eeeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Views">
+      <UniqueIdentifier>{03b42e75-a8ec-471b-a393-6efa7e7dc63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Util">
+      <UniqueIdentifier>{250fe3a7-1fe5-4cf2-8fb5-977be194700b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Database">
+      <UniqueIdentifier>{091a79c9-7a5d-420d-8d38-ed849b2cb24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Database">
+      <UniqueIdentifier>{26899db2-334d-45d9-9375-75432e39befb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Views\TownDB">
+      <UniqueIdentifier>{739709fb-1e20-43d9-8ba3-0a1200e98708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Views\TownDB\EditTown">
+      <UniqueIdentifier>{08bae7e0-7405-4696-9fc0-02e8eb5de0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Views\TownDB">
+      <UniqueIdentifier>{365090dd-1de4-4498-994c-9e4c861b99c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Views\TownDB\EditTown">
+      <UniqueIdentifier>{ecce136b-f71b-4ac5-af5f-64e126a51a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Views\Notebook">
+      <UniqueIdentifier>{ee2420e0-1155-44be-99ac-c11c772b78ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Views\Notebook">
+      <UniqueIdentifier>{ced63c98-1cb1-42f3-a0cf-8565d6d3ea47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="View.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalLogicStorage.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewExistException.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewExceptions.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EditView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EditFrameView.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Файлы исходного кода\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleHelper.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlDataBase.cpp">
+      <Filter>Файлы исходного кода\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleQueue.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTownView.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowTownsView.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB</Filter>
+    </ClCompile>
+    <ClCompile Include="TownInfoView.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseMenu.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTownView.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB\EditTown</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPlaceView.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB\EditTown</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSightView.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB\EditTown</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Файлы исходного кода\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="NotebookSHow.cpp">
+      <Filter>Файлы исходного кода\Views\Notebook</Filter>
+    </ClCompile>
+    <ClCompile Include="NotebookEdit.cpp">
+      <Filter>Файлы исходного кода\Views\Notebook</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCorrect.cpp">
+      <Filter>Файлы исходного кода\Views\TownDB\EditTown</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="view.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="logicview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="funcview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="logicstorage.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="consolequeue.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="viewexceptions.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="labelview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="menuview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="listview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="editview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="editframeview.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>Заголовочные файлы\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Заголовочные файлы\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="consolehelper.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Заголовочные файлы\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="addtownview.h">
+      <Filter>Заголовочные файлы\Views\TownDB</Filter>
+    </ClInclude>
+    <ClInclude Include="towninfoview.h">
+      <Filter>Заголовочные файлы\Views\TownDB</Filter>
+    </ClInclude>
+    <ClInclude Include="showtownsview.h">
+      <Filter>Заголовочные файлы\Views\TownDB</Filter>
+    </ClInclude>
+    <ClInclude Include="dbmenu.h">
+      <Filter>Заголовочные файлы\Views\TownDB</Filter>
+    </ClInclude>
+    <ClInclude Include="edittownview.h">
+      <Filter>Заголовочные файлы\Views\TownDB\EditTown</Filter>
+    </ClInclude>
+    <ClInclude Include="addplaceview.h">
+      <Filter>Заголовочные файлы\Views\TownDB\EditTown</Filter>
+    </ClInclude>
+    <ClInclude Include="addsightview.h">
+      <Filter>Заголовочные файлы\Views\TownDB\EditTown</Filter>
+    </ClInclude>
+    <ClInclude Include="nbshow.h">
+      <Filter>Заголовочные файлы\Views\Notebook</Filter>
+    </ClInclude>
+    <ClInclude Include="nbedit.h">
+      <Filter>Заголовочные файлы\Views\Notebook</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>Заголовочные файлы\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_print.hpp">
+      <Filter>Заголовочные файлы\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_iterators.hpp">
+      <Filter>Заголовочные файлы\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>Заголовочные файлы\Database</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
