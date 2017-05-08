@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackground">
+
+    <FrameLayout
+        android:id="@+id/organizer_day_fragment_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/organizer_day_fragment_entry_card">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/organizer_day_fragment_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/organizer_day_fragment_nothing_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing_to_show_error"
+            style="@style/OrganizerNothingError"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/organizer_day_fragment_entry_card"
+        style="@style/OrganizerCardViewCommon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/organizer_day_fragment_entry_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/organizer_day_fragment_entry_submit"
+                android:layout_toStartOf="@+id/organizer_day_fragment_entry_submit" />
+
+            <Button
+                android:id="@+id/organizer_day_fragment_entry_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorPrimary"
+                android:background="@android:color/transparent"
+                android:text="COMMIT"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
